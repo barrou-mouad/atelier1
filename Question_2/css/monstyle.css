@@ -1,0 +1,7 @@
+body{
+    background-image: url('../images/signup-bg.jpg');
+    }
+    .titre{
+    font-weight:bold ;
+    text-transform: uppercase;
+    }

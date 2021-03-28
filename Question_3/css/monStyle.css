@@ -1,0 +1,21 @@
+body{
+background-image: url('images/Grey-Background.jpg');
+background-size: cover ;
+background-repeat: no-repeat ;
+}
+
+img{
+width: 400px;
+height: 270px;
+transition: .5s transform;
+}
+
+img:hover{
+transform: scale(1.1);
+z-index: 30 !important;
+position: relative !important;
+}
+
+@media(max-width:768px){ /*media Extra-small */
+.card{margin: 2px auto;}}
+.card{margin-bottom:6px;margin-top:15px;}
